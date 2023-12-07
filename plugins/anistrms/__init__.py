@@ -94,7 +94,7 @@ class ANiStrms(_PluginBase):
 
     def __get_name_list(self) -> List:
         # 填加速aniopen.an-i.workers.dev的地址
-        url = f'https://ani.anzu.vip/{self.__get_ani_season()}/'
+        url = f'https://aniopen.an-i.workers.dev/{self.__get_ani_season()}/'
 
         retries = 0
         MAX_RETRIES = 3
