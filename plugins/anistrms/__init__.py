@@ -13,7 +13,7 @@ from typing import Any, List, Dict, Tuple, Optional
 from app.log import logger
 
 
-class ANiStrm(_PluginBase):
+class ANiStrms(_PluginBase):
     # 插件名称
     plugin_name = "ANiStrm加速"
     # 插件描述
