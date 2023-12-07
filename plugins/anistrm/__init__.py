@@ -15,7 +15,7 @@ from app.log import logger
 
 class ANiStrm(_PluginBase):
     # 插件名称
-    plugin_name = "ANiStrm"
+    plugin_name = "ANiStrm加速"
     # 插件描述
     plugin_desc = "自动获取当季所有番剧，生成strm文件，mp刮削入库，emby直接播放，免去下载，轻松拥有一个番剧媒体库"
     # 插件图标
@@ -120,7 +120,7 @@ class ANiStrm(_PluginBase):
 
     def __touch_strm_file(self, file_name) -> bool:
         # 填加速open.ani-download.workers.dev的地址
-        src_url = f'https://ani-d.anzu.vip//{self._date}/{file_name}?d=true'
+        src_url = f'https://ani-d.anzu.vip/{self._date}/{file_name}?d=true'
         file_path = f'{self._storageplace}/{file_name}.strm'
         if os.path.exists(file_path):
             logger.debug(f'{file_name}.strm 文件已存在')
