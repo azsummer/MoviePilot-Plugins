@@ -27,7 +27,7 @@ class ANiStrm(_PluginBase):
     # 作者主页
     author_url = "https://github.com/honue"
     # 插件配置项ID前缀
-    plugin_config_prefix = "anistrm_"
+    plugin_config_prefix = "anistrms_"
     # 加载顺序
     plugin_order = 30
     # 可使用的用户级别
