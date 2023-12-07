@@ -1,8 +1,8 @@
 # MoviePilot-Plugins
 
-MoviePilot非官方插件库, ANi-Strm,Tracker替换 
+MoviePilot非官方插件库, 魔改ANi-Strm使用加速地址
 
-本仓库地址
+原仓库地址
 
 ```
 https://github.com/honue/MoviePilot-Plugins/main/
@@ -12,7 +12,6 @@ https://github.com/honue/MoviePilot-Plugins/main/
     - [注意事项](#注意事项)
     - [2023-10秋 刮削效果](#2023-10秋-刮削效果)
     - [Todo](#Todo)
-- [2. Tracker替换插件](#Tracker替换)
 
 # MoviePilot x ANi-Strm
 
@@ -65,9 +64,3 @@ docker-compose env
 
 - [x] ~~网页、fileball 无法播放的问题，看看能不能解决，或者有无更好的源代替~~。
 - [ ] 排查是否存在bug，优化使用
-
-# Tracker替换
-
-<div align="center">
-	<img src="./img/trackereditor.png">
-</div>
