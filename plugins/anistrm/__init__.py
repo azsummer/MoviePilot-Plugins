@@ -93,6 +93,7 @@ class ANiStrm(_PluginBase):
                 return f'{current_year}-{month}'
 
     def __get_name_list(self) -> List:
+        # 填加速aniopen.an-i.workers.dev的地址
         url = f'https://ani.anzu.vip/{self.__get_ani_season()}/'
 
         retries = 0
@@ -118,7 +119,8 @@ class ANiStrm(_PluginBase):
         # self.save_data("history", pulgin_history)
 
     def __touch_strm_file(self, file_name) -> bool:
-        src_url = f'https://resources.ani.rip/{self._date}/{file_name}?d=true'
+        # 填加速open.ani-download.workers.dev的地址
+        src_url = f'https://ani-d.anzu.vip//{self._date}/{file_name}?d=true'
         file_path = f'{self._storageplace}/{file_name}.strm'
         if os.path.exists(file_path):
             logger.debug(f'{file_name}.strm 文件已存在')
