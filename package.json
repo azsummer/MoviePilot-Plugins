@@ -5,7 +5,25 @@
     "version": "1.2",
     "icon": "https://cdn.jsdelivr.net/gh/honue/MoviePilot-Plugins@main/icon/anistrm.png",
     "color": "#051b45",
-    "author": "honue",
-    "level": 2
+    "author": "summer",
+    "level": 1
+  },
+  "115qd":{
+    "name": "115网盘签到",
+    "description": "115自动签到",
+    "version": "1.4",
+    "icon": "https://115.com/web_icon.jpg",
+    "color": "#051b45",
+    "author": "summer",
+    "level": 1
+  },
+  "CloudStrmApi": {
+    "name": "云盘Strm生成（API直链版）",
+    "description": "监控文件创建，生成Strm文件。",
+    "version": "2.0",
+    "icon": "https://raw.githubusercontent.com/thsrite/MoviePilot-Plugins/main/icons/create.png",
+    "color": "#051b45",
+    "author": "不是",
+    "level": 1
   }
 }
